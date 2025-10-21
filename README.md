@@ -18,19 +18,19 @@ Identified numerical and categorical variables.
 Examined the distribution of the target variable accident_risk using histograms and boxplots.
 Explored relationships between features such as weather, time_of_day, and the target variable.
  
-2)Data Preprocessing
+2) Data Preprocessing
 Missing values were handled with appropriate imputation strategies.
 Categorical features were encoded using pd.get_dummies() and OneHotEncoder.
 Unnecessary columns were dropped and numerical features were normalized.
  
-3)Feature Engineering
+3) Feature Engineering
 At least two new, meaningful features were created.
 Their impact on model performance was evaluated.
 
-4)Modeling
+4) Modeling
 Three different regression models were trained and compared.
 
-5)Validation Strategy
+5) Validation Strategy
 Used train_test_split to hold out 20% of the data for validation.
 All models were trained and evaluated on the same split for fair comparison.
 Performance was measured using Root Mean Squared Error (RMSE), consistent with Kaggle’s competition metric.
